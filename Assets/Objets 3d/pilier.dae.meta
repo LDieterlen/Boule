@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 3e1ba3f76d2792b4fba6d774ee5e04a9
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: corde
+    100002: corde 1
+    100004: corde 10
+    100006: corde 11
+    100008: corde 12
+    100010: corde 13
+    100012: corde 14
+    100014: corde 15
+    100016: corde 16
+    100018: corde 17
+    100020: corde 18
+    100022: corde 19
+    100024: corde 2
+    100026: corde 20
+    100028: corde 21
+    100030: corde 22
+    100032: corde 23
+    100034: corde 3
+    100036: corde 4
+    100038: corde 5
+    100040: corde 6
+    100042: corde 7
+    100044: corde 8
+    100046: corde 9
+    100048: Corde1
+    100050: Corde1 1
+    100052: Corde1.1
+    100054: Corde1.1 1
+    100056: Corde1.2
+    100058: Corde1.2 1
+    100060: Corde1.3
+    100062: Corde1.3 1
+    100064: Cordes_haut
+    100066: Cordes_haut.1
+    100068: //RootNode
+    100070: Poteaux
+    400000: corde
+    400002: corde 1
+    400004: corde 10
+    400006: corde 11
+    400008: corde 12
+    400010: corde 13
+    400012: corde 14
+    400014: corde 15
+    400016: corde 16
+    400018: corde 17
+    400020: corde 18
+    400022: corde 19
+    400024: corde 2
+    400026: corde 20
+    400028: corde 21
+    400030: corde 22
+    400032: corde 23
+    400034: corde 3
+    400036: corde 4
+    400038: corde 5
+    400040: corde 6
+    400042: corde 7
+    400044: corde 8
+    400046: corde 9
+    400048: Corde1
+    400050: Corde1 1
+    400052: Corde1.1
+    400054: Corde1.1 1
+    400056: Corde1.2
+    400058: Corde1.2 1
+    400060: Corde1.3
+    400062: Corde1.3 1
+    400064: Cordes_haut
+    400066: Cordes_haut.1
+    400068: //RootNode
+    400070: Poteaux
+    2100000: Mat.4
+    2100002: Mat.3
+    2300000: corde
+    2300002: corde 1
+    2300004: corde 10
+    2300006: corde 11
+    2300008: corde 12
+    2300010: corde 13
+    2300012: corde 14
+    2300014: corde 15
+    2300016: corde 16
+    2300018: corde 17
+    2300020: corde 18
+    2300022: corde 19
+    2300024: corde 2
+    2300026: corde 20
+    2300028: corde 21
+    2300030: corde 22
+    2300032: corde 23
+    2300034: corde 3
+    2300036: corde 4
+    2300038: corde 5
+    2300040: corde 6
+    2300042: corde 7
+    2300044: corde 8
+    2300046: corde 9
+    2300048: Poteaux
+    3300000: corde
+    3300002: corde 1
+    3300004: corde 10
+    3300006: corde 11
+    3300008: corde 12
+    3300010: corde 13
+    3300012: corde 14
+    3300014: corde 15
+    3300016: corde 16
+    3300018: corde 17
+    3300020: corde 18
+    3300022: corde 19
+    3300024: corde 2
+    3300026: corde 20
+    3300028: corde 21
+    3300030: corde 22
+    3300032: corde 23
+    3300034: corde 3
+    3300036: corde 4
+    3300038: corde 5
+    3300040: corde 6
+    3300042: corde 7
+    3300044: corde 8
+    3300046: corde 9
+    3300048: Poteaux
+    4300000: corde
+    4300002: corde
+    4300004: corde
+    4300006: corde
+    4300008: corde
+    4300010: corde
+    4300012: corde
+    4300014: corde
+    4300016: corde
+    4300018: corde
+    4300020: corde
+    4300022: corde
+    4300024: corde
+    4300026: corde
+    4300028: corde
+    4300030: corde
+    4300032: corde
+    4300034: corde
+    4300036: corde
+    4300038: corde
+    4300040: corde
+    4300042: corde
+    4300044: corde
+    4300046: corde
+    4300048: Poteaux
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

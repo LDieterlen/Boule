@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<contributor>
+			<authoring_tool>CINEMA4D 14.025 COLLADA Exporter</authoring_tool>
+		</contributor>
+		<created>2018-05-31T10:09:39Z</created>
+		<modified>2018-05-31T10:09:39Z</modified>
+		<unit meter="0.01" name="centimeter"/>
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_effects>
+		<effect id="ID2">
+			<profile_COMMON>
+				<technique sid="COMMON">
+					<blinn>
+						<diffuse>
+							<color>0.8 0.8 0.8 1</color>
+						</diffuse>
+						<specular>
+							<color>0.2 0.2 0.2 1</color>
+						</specular>
+						<shininess>
+							<float>0.5</float>
+						</shininess>
+					</blinn>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_materials>
+		<material id="ID1" name="Mat">
+			<instance_effect url="#ID2"/>
+		</material>
+	</library_materials>
+	<library_geometries>
+		<geometry id="ID5">
+			<mesh>
+				<source id="ID6">
+					<float_array id="ID7" count="84" digits="2490374">0 6.30372 -0 -4.28177 2.11425 -0 -2.10357 2.13132 -0 -2.10347 -2.06313 -0 2.0603 -2.06313 -0 2.09026 2.1306 -0 4.18247 2.11507 -0 0 6.30372 -1.155 -4.28177 2.11425 -1.155 -2.10357 2.13132 -1.155 -2.10347 -2.06313 -1.155 2.0603 -2.06313 -1.155 2.09026 2.1306 -1.155 4.18247 2.11507 -1.155 0 6.30372 -0 -4.28177 2.11425 -0 -2.10357 2.13132 -0 -2.10347 -2.06313 -0 2.0603 -2.06313 -0 2.09026 2.1306 -0 4.18247 2.11507 -0 0 6.30372 -1.155 -4.28177 2.11425 -1.155 -2.10357 2.13132 -1.155 -2.10347 -2.06313 -1.155 2.0603 -2.06313 -1.155 2.09026 2.1306 -1.155 4.18247 2.11507 -1.155</float_array>
+					<technique_common>
+						<accessor count="28" source="#ID7" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ID8">
+					<float_array id="ID9" count="27" digits="2490374">-0.699361 0.714769 -0 0.00783534 -0.999969 -0 -1 -2.43282e-005 -0 0 -1 -0 0.999974 -0.00714266 -0 -0.00742523 -0.999972 -0 0.707628 0.706585 -0 0 0 1 0 0 -1</float_array>
+					<technique_common>
+						<accessor count="9" source="#ID9" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="ID10">
+					<float_array id="ID11" count="2" digits="2490374">0 1</float_array>
+					<technique_common>
+						<accessor count="1" source="#ID11" stride="2">
+							<param name="S" type="float"/>
+							<param name="T" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="ID12">
+					<input semantic="POSITION" source="#ID6"/>
+				</vertices>
+				<polylist count="9" material="Material1">
+					<input offset="0" semantic="VERTEX" source="#ID12" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#ID8" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#ID10" set="0"/>
+					<vcount>4 4 4 4 4 4 4 7 7</vcount>
+					<p>7 0 0 8 0 0 1 0 0 0 0 0 8 1 0 9 1 0 2 1 0 1 1 0 9 2 0 10 2 0 3 2 0 2 2 0 10 3 0 11 3 0 4 3 0 3 3 0 11 4 0 12 4 0 5 4 0 4 4 0 12 5 0 13 5 0 6 5 0 5 5 0 13 6 0 7 6 0 0 6 0 6 6 0 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 14 7 0 27 8 0 26 8 0 25 8 0 24 8 0 23 8 0 22 8 0 21 8 0</p>
+				</polylist>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="ID3">
+			<node id="ID4" name="Extrude_NURBS.1">
+				<translate sid="translate">0 0 -0</translate>
+				<rotate sid="rotateY">0 1 0 -0</rotate>
+				<rotate sid="rotateX">1 0 0 0</rotate>
+				<rotate sid="rotateZ">0 0 1 -0</rotate>
+				<scale sid="scale">1 1 1</scale>
+				<instance_geometry url="#ID5">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="Material1" target="#ID1">
+								<bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#ID3"/>
+	</scene>
+</COLLADA>
